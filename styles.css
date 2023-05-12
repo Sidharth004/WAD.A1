@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar ul{
+    display: block;
+    list-style:none;
+    width: 150px;
+    position: fixed;
+    height: 100%;
+    padding: 20px;
+    color: rgb(76, 0, 255);
+    background-color: beige;
+    border: 2px solid black;
+}
+.sidebar ul li{
+
+    padding: 10px
+
+}
+
+.navbar{
+    width: max-content;
+}
+.nav-items{
+
+    list-style: none;
+    display: flex;
+    /*justify-content: space-around;*/
+    align-items: left;
+    height: 60px;
+    padding: 0 60px;
+    background-color: rgb(172, 167, 140);
+    border: 2px solid rgb(2, 0, 0);
+    margin-left: 150px;
+}
+
+.item-right {
+    
+    display: flex;
+    margin-left: 788px;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.item-right li{
+    padding-left: 12px;;
+}
+
+.content {
+    padding-top: 10px;
+    margin-left: 155px;
+    /* width: 630px; */
+    display: flex;
+    box-sizing: border-box;
+  }
+
+.content--primary{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 2px solid black;
+   
+}
+.content--earnings{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 50px;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 4px;
+}
+
+.content--monthly{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 4px;
+}
+.content--orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 4px;
+}
+.content--report{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 4;    
+    height: 100px;
+    width: 280px;
+    border: 2px solid black;
+    justify-content: center;
+    padding: 4px; 
+    
+}
+.main{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 10px; */
+    padding-top: 10px;
+    margin-left: 165px;
+    /* width: 630px; */
+    display: flex;
+    box-sizing: border-box;
+}
+.main--monthwise{
+
+    display: flex;
+
+    flex-direction: column;
+    width: 550px;
+    align-items: center;
+    margin-top: 50px;
+    /* margin-left: -510px; */
+    border: 2px solid;
+    /* width: 630px; */
+    
+}
+
+.main--product{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 350px;
+    border: 2px solid;
+    padding-top: 25px;
+    margin-top: 50px;
+    margin-left:15px;
+}
